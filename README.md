@@ -6,7 +6,7 @@
 
 <p align="center">
   I build ML systems with an interest in what happens beyond model training —
-  when data changes, models degrade, and systems need to be monitored, evaluated and improved.
+  when data changes, models degrade, and systems need to be monitored, evaluated, and improved.
 </p>
 
 <p align="center">
@@ -27,11 +27,11 @@
 
 My main focus is **Machine Learning and Data Science**, especially the parts that become important after a model leaves the notebook.
 
-Most of my recent work has involved problems around **fraud detection, data quality, model evaluation, data drift, retraining, monitoring and deployment**.
+Most of my recent work has involved **fraud detection, data quality, model evaluation, data drift, retraining, monitoring, and deployment**.
 
 I like understanding not only why a model makes a prediction, but what happens to the complete system when new data arrives and the assumptions used during training start changing.
 
-Alongside ML, I explore **RAG, semantic retrieval and agentic workflows** through Cognexa.
+Alongside ML, I explore **RAG, semantic retrieval, and agentic workflows** through Cognexa.
 
 ---
 
@@ -56,9 +56,11 @@ Alongside ML, I explore **RAG, semantic retrieval and agentic workflows** throug
 
 ### FraudOPS — UPI Fraud Detection & MLOps
 
+[![FraudOPS Tests](https://github.com/Akshay576-crypto/upi-fraud-mlops/actions/workflows/tests.yml/badge.svg)](https://github.com/Akshay576-crypto/upi-fraud-mlops/actions/workflows/tests.yml)
+
 An ML system I built to understand what happens when a fraud model encounters changing transaction patterns.
 
-Instead of stopping after training the first model, I created drift scenarios, measured how performance changed, analyzed where the model failed and retrained it using newer data.
+Instead of stopping after training the first model, I created drift scenarios, measured how performance changed, analyzed where the model failed, and retrained it using newer data.
 
 | Stage | F1 Score |
 |:---|---:|
@@ -66,11 +68,15 @@ Instead of stopping after training the first model, I created drift scenarios, m
 | Drift Scenario | **0.5366** |
 | Retrained Model | **0.9965** |
 
-The project includes:
+**What I worked with**
 
 `Fraud Detection` · `Feature Engineering` · `Random Forest` · `PR-AUC` · `Drift Analysis` · `Retraining` · `FastAPI`
 
-For deployment, I separated the static frontend from the inference backend:
+The API now also has an automated test suite covering model/API behavior and request validation, executed through **GitHub Actions CI** on pushes and pull requests to `main`.
+
+#### Deployment
+
+I separated the static frontend from the ML inference backend:
 
 ```text
 User
@@ -88,7 +94,7 @@ ML Model
 Fraud Probability / Risk Decision
 ```
 
-This allowed the static frontend to stay on object storage while the backend handled the part that actually requires computation.
+This keeps the static frontend on object storage while the backend handles the part that actually requires computation.
 
 **[Source Code](https://github.com/Akshay576-crypto/upi-fraud-mlops)** · **[Live Demo](http://upi-fraud-mlops.s3-website.eu-north-1.amazonaws.com/)**
 
@@ -102,7 +108,7 @@ A monitoring system built around a simple question:
 
 DQM analyzes incoming datasets before they move further through the pipeline.
 
-It includes:
+**What it includes**
 
 - Automatic data profiling
 - Missing-value and duplicate detection
@@ -121,7 +127,7 @@ It includes:
 
 ### Cognexa — Research & Retrieval System
 
-Cognexa is where I explore another side of intelligent systems: **retrieval, semantic search, RAG and agentic workflows**.
+Cognexa is where I explore another side of intelligent systems: **retrieval, semantic search, RAG, and agentic workflows**.
 
 My work around Cognexa includes:
 
@@ -145,9 +151,7 @@ I treat these as additional tools for solving problems rather than replacements 
 
 ## More Engineering Work
 
-Not every experiment needs to become a flagship project.
-
-I also use this GitHub to explore **data pipelines, backend systems, ML experiments and engineering ideas**.
+I also use this GitHub to explore **data pipelines, backend systems, ML experiments, and engineering ideas**.
 
 One example is my **Self-Healing ETL Pipeline**, built around detecting and handling data-pipeline problems while maintaining pipeline-run history.
 
@@ -163,13 +167,13 @@ I write about concepts I'm learning and problems I encounter while building ML s
 
 ### Self-Learning ML Models
 
-How data quality, drift, retraining and monitoring connect across an ML lifecycle.
+How data quality, drift, retraining, and monitoring connect across an ML lifecycle.
 
 **[Read on Hashnode](https://self-trainig-ml-model.hashnode.dev/self-learning-ml-model)**
 
 ### Understanding Confusion Matrix, MSE & RMSE
 
-Breaking down model-evaluation concepts using intuition, mathematics and small examples.
+Breaking down model-evaluation concepts using intuition, mathematics, and small examples.
 
 **[Read on Hashnode](https://self-trainig-ml-model.hashnode.dev/confusion-matrix-mse-rmse-explained-like-you-re-5)**
 
@@ -189,10 +193,10 @@ Understanding how these classification metrics depend on each other and how deci
   <img src="https://img.shields.io/badge/Deep%20Learning-Foundations-6A5ACD" />
   <img src="https://img.shields.io/badge/TensorFlow-Learning-FF6F00?logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Statistics-%26%20Probability-4B8BBE" />
-  <img src="https://img.shields.io/badge/ML-System%20Design-Learning-555555" />
+  <img src="https://img.shields.io/badge/ML%20System%20Design-Learning-555555" />
 </p>
 
-I'm currently strengthening my foundations in **Deep Learning, TensorFlow, statistics, probability and ML system design** while continuing to build with classical Machine Learning.
+I'm currently strengthening my foundations in **Deep Learning, TensorFlow, statistics, probability, and ML system design** while continuing to build with classical Machine Learning.
 
 ---
 
