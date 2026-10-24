@@ -1,439 +1,191 @@
-<!-- =========================================================
-     AKSHAY SAPARIYA — GITHUB PROFILE
-     ========================================================= -->
-
-<div align="center">
+div align="center">
 
 # Akshay Sapariya
 
 ### Machine Learning · Data Science · Agentic AI · GenAI
 
-Building and learning through ML systems, data pipelines, retrieval,
-agent workflows, and the engineering around them.
+Building ML systems, data pipelines, and multi-agent applications—with a focus on how they work beyond a notebook.
 
-<br>
-
-[LinkedIn](https://www.linkedin.com/in/akshay-sapariya-438747375/) &nbsp;·&nbsp;
-[Technical Writing](https://hashnode.com/@akshay0884) &nbsp;·&nbsp;
-[Email](mailto:ak.56sapariya@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/akshay-sapariya-438747375/) · [Technical Writing](https://hashnode.com/@akshay0884) · [Email](mailto:ak.56sapariya@gmail.com)
 
 </div>
 
-<br>
+---
+
+## About
+
+I focus on **Machine Learning and Data Science**, particularly model evaluation, data quality, changing data distributions, and the engineering around ML applications.
+
+I also build with **Generative AI and agentic workflows**. Through Cognexa, I explore how multiple agents can pass shared memory and findings between steps, use tools to investigate a problem, and build on previous work instead of treating every prompt as an isolated task.
+
+This GitHub is where I share the systems I build, the experiments behind them, and what I learn along the way.
+
+## Technology Stack
+
+### ML & Data Science
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![TensorFlow Foundations](https://img.shields.io/badge/TensorFlow-Foundations-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+
+### GenAI & Agentic Systems
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
+![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-5A45FF?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-Retrieval%20%26%20Generation-7057FF?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+
+### Backend, Testing & Infrastructure
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 
 ---
 
-## 01 / About
+## Selected Systems
 
-I spend most of my time working with **Machine Learning and Data Science**, particularly around model evaluation, data quality, changing data distributions, and deployment.
+## Cognexa — Multi-Agent Research, Consulting & Intelligence Platform
 
-I've also worked with **RAG, Generative AI, and agentic systems** through Cognexa, where I experimented with semantic retrieval, vector search, routing, and tool-based workflows.
+**Core idea: agents pass shared memory and findings from one step to another.**
 
-I'm interested in what happens around a model as much as the model itself — how data reaches it, how its behavior changes, how an application uses its output, and how the overall system can be evaluated and improved.
+Cognexa uses a LangGraph-based workflow to coordinate agents around research and business problems. Findings from one step become shared context for the next agent, allowing the workflow to build on earlier research instead of treating every LLM call as a separate, context-free prompt.
 
-This GitHub is where I keep the systems I build, the experiments behind them, and notes on what I learn along the way.
+The system can combine research, retrieval, and tool execution. For example, web-search and Yahoo Finance tools help investigate current information; the document workflow uses Qdrant-backed retrieval for PDF question answering and research-paper validation, cross-checking claims against external sources and highlighting potential issues in an analysis.
 
----
+A reporting workflow turns findings into PDF reports, PowerPoint presentations, and a KPI dashboard. The project also includes a FastAPI backend with JWT authentication.
 
-## 02 / Stack
+**What I worked with**
 
-<table>
-<tr>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-<td width="33%" valign="top">
+The project includes 190 Pytest tests. In the project work, API response time was reduced from approximately 30 seconds to 15 seconds.
 
-### ML & Data
+[**Source Code →**](https://github.com/Akshay576-crypto/Cognexa) · [**Live UI Showcase →**](http://cognexa-static.s3-website.eu-north-1.amazonaws.com/)
 
-`Python`
-
-`SQL`
-
-`Scikit-learn`
-
-`Pandas`
-
-`NumPy`
-
-`Matplotlib`
-
-`Seaborn`
-
-`TensorFlow · Foundations`
-
-</td>
-
-<td width="33%" valign="top">
-
-### GenAI & Agents
-
-`RAG`
-
-`LangChain`
-
-`LangGraph`
-
-`Qdrant`
-
-`Sentence Transformers`
-
-`Vector Search`
-
-`LLM Integration`
-
-`Tool Routing`
-
-</td>
-
-<td width="33%" valign="top">
-
-### Engineering
-
-`FastAPI`
-
-`REST APIs`
-
-`MySQL`
-
-`Pytest`
-
-`Docker`
-
-`AWS S3`
-
-`Render`
-
-`Git / GitHub`
-
-</td>
-
-</tr>
-</table>
+> RAG is one capability within Cognexa—not the whole project. The broader focus is coordinating agents, passing context between steps, using tools, and producing useful outputs from the combined workflow.
 
 ---
 
-# 03 / Selected Systems
+## FraudOPS — UPI Fraud Detection, Drift Evaluation & Monitoring
 
-## FraudOPS
+I built FraudOPS to explore what happens when transaction patterns change after a fraud model has been trained.
 
-### UPI Fraud Detection · Model Drift · Retraining · Deployment
-
-I built FraudOPS to understand what happens when transaction patterns change after a fraud model has already been trained.
-
-The first model was trained using **15,000 UPI transactions** with behavioral features around transaction activity, beneficiary behavior, authentication attempts, device changes, and account history.
-
-Instead of stopping after the initial model, I introduced new transaction patterns and measured what happened when the assumptions learned during training no longer held.
+The Random Forest model was trained on **15,000+ synthetic UPI transactions**. I evaluated its baseline performance, introduced a simulated drift scenario, and compared the results with a retrained model.
 
 | Experiment | F1 Score | PR-AUC |
 |:---|---:|---:|
-| Initial Model | **0.8093** | **0.9121** |
-| Drift Scenario | **0.5366** | **0.4692** |
-| Retrained Model | **0.9965** | **1.0000** |
+| Initial model | 0.8093 | 0.9121 |
+| Simulated drift | 0.5366 | 0.4692 |
+| Retrained model | 0.9965 | 1.0000 |
 
-> **Experiment context:** The retrained result comes from a controlled simulated drift environment. The dataset and drift scenarios are synthetic, so the result represents recovery inside this experiment rather than expected performance on real-world financial transactions.
+> **Experiment context:** The dataset and drift scenarios are synthetic. The retrained result represents recovery within this controlled experiment, not expected performance on real-world financial transactions.
 
-### What I explored
+The FastAPI prediction endpoint returns a fraud probability and risk decision. The frontend is hosted on AWS S3, while the API runs separately on Render.
 
-`Fraud Detection` · `Feature Engineering` · `Random Forest` · `PR-AUC`
-
-`Distribution Shift` · `Failure Analysis` · `Retraining` · `FastAPI`
-
-### ML flow
-
-```text
-Transaction
-     │
-     ▼
-Behavioral Features
-     │
-     ▼
-Fraud Model
-     │
-     ▼
-Fraud Probability
-     │
-     ├── LOW    → ALLOW
-     │
-     ├── MEDIUM → REVIEW
-     │
-     └── HIGH   → BLOCK
-```
-
-### Deployment
-
-I separated static delivery from model computation rather than putting the whole application on one service.
-
-```text
-User
- │
- ▼
-AWS S3
-Static Frontend
- │
- ▼
-FastAPI Backend
-Render
- │
- ▼
-ML Model
- │
- ▼
-Fraud Probability
-+
-Risk Decision
-```
-
-The API also has automated tests covering prediction behavior, request validation, error handling, and model status.
-
-Those tests run through GitHub Actions when changes are pushed to the repository.
+**CI/CD in practice:** GitHub Actions runs automated tests when changes are pushed to the repository. Tests cover prediction behavior, request validation, error handling, and model status.
 
 [![FraudOPS Tests](https://github.com/Akshay576-crypto/upi-fraud-mlops/actions/workflows/tests.yml/badge.svg)](https://github.com/Akshay576-crypto/upi-fraud-mlops/actions/workflows/tests.yml)
 
-**[Source Code →](https://github.com/Akshay576-crypto/upi-fraud-mlops)** &nbsp;&nbsp;
-**[Live Demo →](http://upi-fraud-mlops.s3-website.eu-north-1.amazonaws.com/)**
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+
+[**Source Code →**](https://github.com/Akshay576-crypto/upi-fraud-mlops) · [**Live Demo →**](http://upi-fraud-mlops.s3-website.eu-north-1.amazonaws.com/)
 
 ---
 
-## DQM
+## DQM — ML Pipeline Data Quality Monitoring
 
-### ML Pipeline Data Quality Monitoring
+DQM adds a validation layer before poor-quality data reaches downstream analytics or ML processing. It profiles incoming datasets, identifies missing values and duplicates, detects unusual records, calculates a quality score, and stores run history.
 
-DQM started with a simple question:
+The pipeline uses Isolation Forest for anomaly detection and includes a FastAPI backend, MySQL persistence, dashboard trends, and PDF quality reports.
 
-> **What happens if poor-quality data reaches an ML pipeline before anyone notices it?**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-The project adds a validation layer before downstream analytics or ML processing.
-
-It profiles incoming datasets, looks for common data-quality problems, detects unusual observations, calculates a quality score, and keeps a history of pipeline runs.
-
-### Pipeline
-
-```text
-CSV / Dataset
-      │
-      ▼
-Data Profiling
-      │
-      ├── Missing Values
-      │
-      ├── Duplicates
-      │
-      └── Validation
-      │
-      ▼
-Isolation Forest
-      │
-      ▼
-Anomaly Detection
-      │
-      ▼
-Data Quality Score
-      │
-      ├── MySQL History
-      │
-      ├── Dashboard
-      │
-      └── PDF Report
-```
-
-### What it includes
-
-- Automatic dataset profiling
-- Missing-value detection
-- Duplicate detection
-- Isolation Forest anomaly detection
-- Data-quality scoring
-- Pipeline-run history
-- MySQL persistence
-- FastAPI backend
-- Dashboard trends
-- PDF quality reports
-
-**Built with**
-
-`Python` · `Pandas` · `Scikit-learn` · `Isolation Forest` · `FastAPI` · `MySQL`
-
-**[Explore DQM →](https://github.com/Akshay576-crypto/ML-Pipeline-DQM)**
+[**Explore DQM →**](https://github.com/Akshay576-crypto/ML-Pipeline-DQM)
 
 ---
 
-## Cognexa
+## Backend & Data Engineering
 
-### RAG · Semantic Retrieval · Agentic AI · GenAI
+### Athere — FastAPI Chat Application
 
-Cognexa is where I explore another side of intelligent systems.
+A chat application built while exploring API routing, authentication, database-backed application logic, and separation of backend responsibilities.
 
-Instead of treating an LLM as the entire application, I wanted to understand how **retrieval, routing, tools, and generation** can work together around it.
+**Stack:** Python · FastAPI · REST APIs · Authentication · MySQL
 
-The project experiments with semantic retrieval using Sentence Transformers and Qdrant, along with different paths for retrieval, research, and tool-based requests.
+[**Explore Athere →**](https://github.com/Akshay576-crypto/chatting-app-FastAPI)
 
-### System flow
+### Self-Healing ETL Pipeline
 
-```text
-User Query
-    │
-    ▼
-Routing / Agent Workflow
-    │
-    ├──────────────┬───────────────┐
-    │              │               │
-    ▼              ▼               ▼
-Semantic        Research          Tool
-Retrieval         Path          Execution
-    │                              │
-    ▼                              │
- Qdrant                            │
-    │                              │
-    └──────────────┬───────────────┘
-                   │
-                   ▼
-           Context / Evidence
-                   │
-                   ▼
-              LLM Response
-```
+A data-engineering experiment focused on identifying problematic records during a pipeline run, separating them from clean records, and keeping run history for troubleshooting.
 
-### What I worked with
+**Stack:** Python · Pandas · SQLite · Streamlit
 
-`RAG` · `Agentic AI` · `GenAI`
+[**View Live Dashboard →**](https://selfhealingpipelinedashboard-et3gyntpk5eyzm28x9rkgc.streamlit.app/)
 
-`Semantic Retrieval` · `Vector Search` · `Qdrant`
-
-`Sentence Transformers` · `LangChain` · `LangGraph`
-
-`FastAPI` · `LLM Integration` · `Tool Routing`
-
-### Frontend showcase
-
-I host the Cognexa frontend separately on **AWS S3** as a public walkthrough of the project.
-
-The showcase is intended to make the product flow and interface easy to explore without keeping the complete backend, vector database, and LLM stack publicly running.
-
-**[Source Code →](https://github.com/Akshay576-crypto/Cognexa)** &nbsp;&nbsp;
-**[Live Project Showcase →](http://cognexa-static.s3-website.eu-north-1.amazonaws.com/)**
+[**Explore All Repositories →**](https://github.com/Akshay576-crypto?tab=repositories)
 
 ---
 
-# 04 / Backend & Data Engineering
+## Technical Writing
 
-## Athere
+I write to strengthen my understanding of ML concepts and explain the reasoning behind model evaluation and ML system behavior.
 
-A FastAPI-based chat application I built while spending more time on backend application structure.
-
-The project helped me work with API routing, authentication, database-backed application logic, and separating backend responsibilities instead of keeping everything inside a single application file.
-
-**Built with**
-
-`Python` · `FastAPI` · `REST APIs` · `Authentication` · `MySQL`
-
-**[Explore Athere →](https://github.com/Akshay576-crypto/chatting-app-FastAPI)**
-
-<br>
-
-## Self-Healing ETL Pipeline
-
-An earlier data-engineering experiment around detecting and handling problems as data moves through a pipeline.
-
-The project separates clean and problematic records and keeps pipeline-run history so failures can be inspected instead of silently passing downstream.
-
-**Built with**
-
-`Python` · `Pandas` · `SQLite` · `Streamlit` · `Pipeline Monitoring`
-
-**[View Live Dashboard →](https://selfhealingpipelinedashboard-et3gyntpk5eyzm28x9rkgc.streamlit.app/)**
-
-<br>
-
-**[Explore All Repositories →](https://github.com/Akshay576-crypto?tab=repositories)**
+- **[Self-Learning ML Systems](https://self-trainig-ml-model.hashnode.dev/self-learning-ml-model)** — Data quality, drift, monitoring, and retraining across an ML lifecycle.
+- **[Understanding Confusion Matrix, MSE & RMSE](https://self-trainig-ml-model.hashnode.dev/confusion-matrix-mse-rmse-explained-like-you-re-5)** — Evaluation concepts explained through intuition, formulas, and examples.
+- **[Precision, Recall & F1](https://self-trainig-ml-model.hashnode.dev/confusion-matrix-pt-2)** — How classification thresholds affect precision, recall, and F1.
+- [**More writing on Hashnode →**](https://hashnode.com/@akshay0884)
 
 ---
 
-# 05 / Technical Writing
+## Currently Going Deeper Into
 
-I write about concepts I'm learning and problems that become clearer while building.
+- **Deep Learning:** neural-network fundamentals, ANN, and RNN.
+- **TensorFlow:** strengthening foundations through practice.
+- **CI/CD & Automation:** improving GitHub Actions workflows, automated testing, and the automation around ML applications.
+- **Statistics & Probability:** building stronger mathematical intuition for model evaluation.
+- **ML System Design:** understanding how to build maintainable, testable ML applications beyond a notebook.
 
-The goal is mostly to force myself to explain the idea simply enough that I know whether I actually understand it.
-
-<br>
-
-### 01 — Self-Learning ML Systems
-
-**Data Quality · Drift · Monitoring · Retraining**
-
-How data quality, changing distributions, model degradation, and retraining fit together across an ML lifecycle.
-
-**[Read on Hashnode →](https://self-trainig-ml-model.hashnode.dev/self-learning-ml-model)**
-
-<br>
-
-### 02 — Understanding Confusion Matrix, MSE & RMSE
-
-**Model Evaluation · Mathematics · Intuition**
-
-Breaking down common evaluation concepts using intuition, formulas, and small numerical examples.
-
-**[Read on Hashnode →](https://self-trainig-ml-model.hashnode.dev/confusion-matrix-mse-rmse-explained-like-you-re-5)**
-
-<br>
-
-### 03 — Precision, Recall & F1
-
-**Classification · Thresholds · Trade-offs**
-
-Looking at how precision, recall, and F1 depend on each other and how changing a decision threshold changes model behavior.
-
-**[Read on Hashnode →](https://self-trainig-ml-model.hashnode.dev/confusion-matrix-pt-2)**
-
-<br>
-
-**[Explore More Technical Writing →](https://hashnode.com/@akshay0884)**
+I’m continuing to build with classical Machine Learning while strengthening these areas, rather than adding tools only to make the stack look longer.
 
 ---
 
-# 06 / Currently Going Deeper Into
+## Connect
 
-I'm currently strengthening my foundations in:
+If you’d like to discuss Machine Learning, Data Science, agentic workflows, or one of the systems above:
 
-```text
-Deep Learning
-     │
-     ├── Neural Network Fundamentals
-     ├── ANN
-     └── RNN
-
-TensorFlow
-     │
-     └── Foundations
-
-Statistics & Probability
-     │
-     └── Stronger ML intuition
-
-ML System Design
-     │
-     └── Models beyond the notebook
-```
-
-I'm continuing to build with classical Machine Learning while going deeper into these areas rather than adding tools only to make the stack longer.
-
----
-
-# 07 / Connect
-
-If you'd like to talk about Machine Learning, Data Science, RAG, Agentic AI, or something I've built:
-
-**[LinkedIn →](https://www.linkedin.com/in/akshay-sapariya-438747375/)**
-
-**[Technical Writing →](https://hashnode.com/@akshay0884)**
-
-**[GitHub →](https://github.com/Akshay576-crypto)**
-
-**[Email →](mailto:ak.56sapariya@gmail.com)**
-
-<br>
+- [LinkedIn](https://www.linkedin.com/in/akshay-sapariya-438747375/)
+- [Technical Writing on Hashnode](https://hashnode.com/@akshay0884)
+- [GitHub Repositories](https://github.com/Akshay576-crypto?tab=repositories)
+- [Email](mailto:ak.56sapariya@gmail.com)
 
 <div align="center">
 
-**Akshay Sapariya**
+**Build · Evaluate · Improve**
 
 Machine Learning · Data Science · Agentic AI · GenAI
 
