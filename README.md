@@ -1,4 +1,4 @@
-<div align="center">
+div align="center">
 
 # Akshay Sapariya
 
@@ -30,7 +30,6 @@ This GitHub is where I share the systems I build, the experiments behind them, a
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
-![TensorFlow Foundations](https://img.shields.io/badge/TensorFlow-Foundations-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 
 ### GenAI & Agentic Systems
 
@@ -161,16 +160,6 @@ I write to strengthen my understanding of ML concepts and explain the reasoning 
 - [**More writing on Hashnode →**](https://hashnode.com/@akshay0884)
 
 ---
-
-## Currently Going Deeper Into
-
-- **Deep Learning:** neural-network fundamentals, ANN, and RNN.
-- **TensorFlow:** strengthening foundations through practice.
-- **CI/CD & Automation:** improving GitHub Actions workflows, automated testing, and the automation around ML applications.
-- **Statistics & Probability:** building stronger mathematical intuition for model evaluation.
-- **ML System Design:** understanding how to build maintainable, testable ML applications beyond a notebook.
-
-I’m continuing to build with classical Machine Learning while strengthening these areas, rather than adding tools only to make the stack look longer.
 
 ---
 
